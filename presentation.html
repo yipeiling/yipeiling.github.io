@@ -3,19 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talks & Presentations</title>
+    <title>Your Name - Academic Website</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-        h1 { text-align: center; }
-        .talk { border-bottom: 1px solid #ddd; padding: 15px 0; }
-        .talk h2 { margin-bottom: 5px; }
-        .talk .date, .talk .venue { font-style: italic; color: #555; }
-        .talk a { color: #0073e6; text-decoration: none; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #34495e;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background: #2c3e50;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #34495e;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Peiling Yi</h1>
+        <p>Researcher in Computational Social Media Analysis & Natural Language Processing</p>
 
-    <h1>Talks & Presentations</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="https://scholar.google.com/citations?user=Q7KsxSAAAAAJ&hl=en">Google Scholar</a>
+        <a href="presentation.html">Presentations</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="people.html">Supervised students</a>
+        <a href="cv.html">CV</a>
+    </nav>
+<body>
+<div class="container">
+
+    <h1>Presentations</h1>
 
     <div class="talk">
         <h2>Learning like human annotators: Cyberbullying detection in lengthy social media sessions</h2>
@@ -32,6 +91,6 @@
         <p>Natural Language Processing (NLP) has revolutionized human-computer interaction, enabling applications like chatbots, machine translation, and sentiment analysis. However, as NLP models become more sophisticated, concerns regarding bias in these systems have emerged. Bias in NLP can arise from multiple sources, including training data, model architectures, and human labeling practices. Such biases can lead to unfair and discriminatory outcomes, disproportionately affecting marginalized groups and reinforcing societal prejudices. This presentation explores the origins of bias in NLP, its impact on real-world applications, and strategies for mitigating it. By understanding and addressing bias, we can develop more ethical, fair, and inclusive NLP systems that serve diverse populations without perpetuating harm.</p>
         <p><a href="Turing_bias_0721.pdf">Slides</a></p>
     </div>
-
+</div>
 </body>
 </html>
